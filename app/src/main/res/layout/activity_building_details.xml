@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".BuildingDetailsActivity">
+
+        <ImageView
+            android:id="@+id/img_hotel"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+        <TextView
+            android:id="@+id/lbl_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/img_hotel"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_margin="15dp"
+            android:text="Hotel name"
+            style="@style/h1" />
+
+        <TextView
+            android:id="@+id/lbl_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="From 40.5 EUR"
+            app:layout_constraintTop_toBottomOf="@id/lbl_name"
+            style="@style/details_p_margins"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/sizzling_red" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/lbl_price"
+            style="@style/details_p_margins"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/dark_grey"
+            android:text="@string/lorem_ipsum" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recycler_rooms"
+            android:layout_marginTop="20dp"
+            android:overScrollMode="never"
+            app:layout_constraintTop_toBottomOf="@id/description"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+

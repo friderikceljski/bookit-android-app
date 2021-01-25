@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BookitPhoneApp</string>
+    <string name="app_logo">Bookit app logo</string>
+    <string name="splash_powered_by">Powered by</string>
+    <string name="email_label">e-mail</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="mainActivity_h2">Choose the date you want to stay with us!</string>
+    <string name="checkin_date">Check-in date</string>
+    <string name="checkout_date">Check-out date</string>
+    <string name="search">search</string>
+    <string name="hottest_deals">Our hottest deals</string>
+    <string name="lorem_ipsum">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="reserve_room">Room reservation</string>
+    <string name="reservation_details">Reservation details</string>
+    <string name="reservation_holder">Reservation holder details</string>
+    <string name="reserve">reserve</string>
+</resources>
